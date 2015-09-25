@@ -1,8 +1,8 @@
 plugins {
     id "com.jfrog.bintray" version "1.1"
     id "com.github.jruby-gradle.base" version "0.1.5"
-    id "java"
-    id "eclipse"
+    
+    
 }
 import com.github.jrubygradle.JRubyExec
 
@@ -17,6 +17,7 @@ subprojects {
     //apply plugin: 'findbugs'
     apply plugin: 'jacoco'
     apply plugin: 'com.github.jruby-gradle.base'
+    apply plugin: 'eclipse'
 
 
     repositories {
