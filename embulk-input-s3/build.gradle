@@ -2,10 +2,10 @@ task gemspec << { file("build/gemspec").write($/
 Gem::Specification.new do |spec|
   spec.name          = "${project.name}"
   spec.version       = "${project.version}"
-  spec.summary       = "S3 file input plugin for Embulk"
-  spec.description   = "Reads files stored on Amazon S3"
-  spec.authors       = ["Sadayuki Furuhashi"]
-  spec.email         = ["frsyuki@gmail.com"]
+  spec.summary       = "S3 file input plugin for Embulk for temporary"
+  spec.description   = "Reads files stored on Amazon S3 for temporary"
+  spec.authors       = ["@toshi-mura"]
+  spec.email         = ["dummy@gmail.com"]
   spec.licenses      = ["Apache 2.0"]
   spec.homepage      = "https://github.com/embulk/embulk-input-s3"
 

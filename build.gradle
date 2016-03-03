@@ -13,6 +13,7 @@ allprojects {
 subprojects {
     apply plugin: 'maven'  // install jar files to the local repo: $ gradle install
     apply plugin: 'java'
+    apply plugin: 'eclipse'
     //apply plugin: 'findbugs'
     apply plugin: 'jacoco'
     apply plugin: 'com.github.jruby-gradle.base'
@@ -58,6 +59,6 @@ subprojects {
 }
 
 task gemPush << {
-    "gem push pkg/embulk-input-s3-${project.version}.gem".execute().waitFor()
-    "gem push pkg/embulk-input-riak_cs-${project.version}.gem".execute().waitFor()
+    "gem push pkg/embulk-input-temporary-nomain-s3-${project.version}.gem".execute().waitFor()
+    //"gem push pkg/embulk-input-riak_cs-${project.version}.gem".execute().waitFor()
 }

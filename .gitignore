@@ -4,3 +4,12 @@ build/
 classpath/
 /.gradle
 /*.gem
+sh.exe.stackdump
+embulk-input-riak_cs/.classpath
+embulk-input-riak_cs/.project
+embulk-input-riak_cs/.settings/org.eclipse.jdt.core.prefs
+embulk-input-s3/.classpath
+embulk-input-s3/.gitignore
+embulk-input-s3/.project
+embulk-input-s3/.settings/org.eclipse.jdt.core.prefs
+embulk-input-s3/bulid.jardesc
